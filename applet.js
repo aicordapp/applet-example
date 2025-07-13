@@ -1,8 +1,5 @@
-async function run({ city }) {
-  const res = await fetch(`https://api.weatherapi.com/v1/current.json?key={{API_KEY}}&q=${city}`);
-  const json = await res.json();
-  return `🌤️ ${json.location.name}: ${json.current.temp_c}°C`;
+module.exports.run = async function({ city }) {
+  // a fetch-et a vm2 sandboxból kapja, nem kell importálni
+  const res = await fetch(`https://wttr.in/${city}?format=3`);
+  return await res.text();
 }
-
-
-module.exports = { run };
