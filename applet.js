@@ -1,5 +1,8 @@
-module.exports.run = async function({ city }) {
-  // a fetch-et a vm2 sandboxból kapja, nem kell importálni
+export async function run({ city }) {
   const res = await fetch(`https://wttr.in/${city}?format=3`);
   return await res.text();
+}
+
+export async function onGuildMemberAdd({ user }) {
+  return `Welcome ${user.username}!`;
 }
