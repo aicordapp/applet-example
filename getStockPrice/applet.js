@@ -1,7 +1,7 @@
 export async function run({ symbol = "GOOGL" }) {
   try {
     // Using Alpha Vantage API for stock data
-    const API_KEY = "{{ALPHA_VANTAGE_API_KEY}}";
+    const API_KEY = {{ALPHA_VANTAGE_API_KEY}};
     const url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${symbol}&apikey=${API_KEY}`;
     
     const response = await fetch(url);
