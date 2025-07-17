@@ -1,0 +1,13 @@
+{
+  "toolMetadata": {
+    "name": "getWeather",
+    "description": "Get weather by city",
+    "appletID": "1221049775718137876:getWeather",
+    "visibility": "public",
+    "repo": "aicordapp/applet-example"
+  },
+  "input": {
+    "city": "string"
+  },
+  "secrets": {}
+}
