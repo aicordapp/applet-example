@@ -1,0 +1,17 @@
+{
+  "toolMetadata": {
+    "name": "getGoogleStock",
+    "description": "Fetches current stock price for Google (GOOGL) or any other stock symbol",
+    "visibility": "public",
+    "repo": "aicordapp/applet-example",
+    "codePath": "getStockPrice/applet.js",
+    "appletID": "1221049775718137876:getGoogleStock"
+  },
+  "input": {
+    "symbol": "string"
+  },
+  "triggers": [],
+  "secrets": {
+    "ALPHA_VANTAGE_API_KEY": "ABCDEFGHIJKL12345"
+  }
+}
