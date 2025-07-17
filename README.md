@@ -1,1 +1,1 @@
-# applet-example
+# AICord Applet Examples & Manifests
