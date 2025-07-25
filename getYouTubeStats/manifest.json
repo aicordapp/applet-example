@@ -1,0 +1,17 @@
+{
+  "toolMetadata": {
+    "name": "getYouTubeStats",
+    "description": "Fetches view count, likes, and comments for YouTube videos",
+    "visibility": "public",
+    "repo": "aicordapp/applet-example",
+    "codePath": "getYouTubeStats/applet.js",
+    "branch": "main"
+  },
+  "input": {
+    "videoUrl": "string"
+  },
+  "triggers": [],
+  "secrets": {
+    "YOUTUBE_API_KEY": "your-youtube-api-key-here"
+  }
+}
